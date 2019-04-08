@@ -32,7 +32,7 @@ public class komunikator {
 		
 		message = new JTextField(20);
 		
-		JButton sendButton = new JButton("Wyślij");
+		JButton sendButton = new JButton("Wyslij");
 		sendButton.addActionListener(new sendButtonListener());
 		
 		pane.add(scroll);
@@ -45,6 +45,7 @@ public class komunikator {
 		
 		frame.getContentPane().add(BorderLayout.CENTER, pane);
 		frame.setSize(400,500);
+		frame.setVisible(true);
 	}
 	
 	private void communicationConfig() {
